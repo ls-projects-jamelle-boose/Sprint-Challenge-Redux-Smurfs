@@ -57,24 +57,24 @@ class SmurfForm extends Component {
         <form onSubmit={this.submitHandler}>
           <h2>Add Smurfs!</h2>
           <input
-            onchange={this.changehandler}
+            onChange={this.changeHandler}
             type="text"
             placeholder="name"
-            value={this.state.newsmurf.name}
+            value={this.state.newSmurf.name}
             name="name"
           />
           <input
-            onchange={this.changehandler}
+            onChange={this.changeHandler}
             type="text"
             placeholder="Age"
-            value={this.state.newsmurf.age}
+            value={this.state.newSmurf.age}
             name="age"
           />
           <input
-            onchange={this.changehandler}
+            onChange={this.changeHandler}
             type="text"
             placeholder="Height"
-            value={this.state.newsmurf.height}
+            value={this.state.newSmurf.height}
             name="height"
           />
           <button className="md-button" type="submit">
