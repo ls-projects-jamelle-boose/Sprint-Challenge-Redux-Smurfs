@@ -24,9 +24,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 #### In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
 
-1. _actions_: send payloads of information that send data from an application to the store.
-2. _reducers_: specify how the application's state changes in response to actions sent to the store.
-3. _store_: object that holds the application's state tree, holds all the source of 'truth'(data), gives you controllability of the components.
+1. `actions` send payloads of information that send data from an application to the store.
+2. `reducers` specify how the application's state changes in response to actions sent to the store.
+3. `store` is an object that holds the application's state tree, holds all the source of 'truth' (data), gives you controllability of the components.
 
 #### What is the difference between Application state and Component state? When would be a good time to use one over the other?
 
@@ -34,7 +34,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 #### Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
 
-- Redux-thunk is a middleware that allows you to write actions creators that return a function instead of an action. It can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. That function receives the store's dispatch method, which is then used to dispatch regular synchronous actions inside the body of the function once the asynchronous operations have completed.
+- `redux-thunk` is a middleware that allows you to write `action-creators` that return a function instead of an action. It can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. That function receives the store's dispatch method, which is then used to dispatch regular synchronous actions inside the body of the function once the asynchronous operations have completed.
 
 ## Project Set Up
 
